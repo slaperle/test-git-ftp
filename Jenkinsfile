@@ -1,6 +1,6 @@
 pipeline {
     agent {
-	label 'mr-mime'
+	label 'master'
     }
     stages {
 	stage ('deploy') {
